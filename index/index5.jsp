@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="static/js/login.js" type="text/javascript"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style>
 #f{
@@ -13,7 +14,7 @@ margin:auto;
 <body>
 <fieldset id="f">
 <legend>Login</legend>
-<form action='jsp/archivo2.jsp' name='form_login' id='form_login' method="post" >
+<form action='jsp/archivo3.jsp' name='form_login' id='form_login' method="post" onsubmit="evaluar_ingreso(); return false;">
     <table border="0" width="50%" align="center">
         <tr>
             <td><center>Usuario</center>

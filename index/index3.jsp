@@ -13,8 +13,8 @@ margin:auto;
 <body>
 <fieldset id="f">
 <legend>Login</legend>
-<form action='jsp/archivo2.jsp' name='form_login' id='form_login' method="post" >
-    <table border="0" width="50%" align="center">
+<form action='jsp/archivo3.jsp' name='form_login' id='form_login' method="post" >
+   <table border="0" width="50%" align="center">
         <tr>
             <td><center>Usuario</center>
             <td><input type="text" maxlength="30" name="txt_usuario" id="txt_usuario">
