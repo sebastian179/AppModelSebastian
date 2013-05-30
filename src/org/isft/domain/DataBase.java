@@ -24,6 +24,7 @@ public final class DataBase {
         setPassword(param.get("password")==null?"":(String)param.get("password"));
         setMotor(param.get("motor")==null?"mysql":(String)param.get("motor"));
         setOrigenDatos(param.get("origen_datos")==null?"dbtp2":(String)param.get("origen_datos"));
+        //setOrigenDatos(param.get("origen_datos")==null?"login":(String)param.get("origen_datos"));
     }
 
     /**
